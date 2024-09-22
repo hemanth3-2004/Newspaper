@@ -1,0 +1,155 @@
+header  > img{
+    width:30%;
+}
+header{
+    text-align: center;
+}
+footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+ li{
+    list-style-type: none;
+ }
+ li>button{
+    color:white;
+    border:0;
+    background-color: black;
+ }
+.sidebar{
+    width:30%;
+    padding: 10px;
+    background-color: beige;
+    gap:20px;
+    display:flex;
+    flex-direction: column;
+}
+.india{
+   width:100%;
+   background-color: white;
+}
+.card>h3,p{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.card>img{
+    width:95%;
+    padding-left:8px;
+    margin-right:5px;
+}
+
+.cricket{
+    width:100%;
+    background-color: white;
+}
+
+.krishna{
+    width:100%;
+    background-color: white;
+}
+
+.laptop{
+    width:100%;
+    background-color: white;
+}
+
+.basketball{
+    width:100%;
+    background-color: white;
+}
+
+.crime{
+    width:100%;
+    background-color: white;
+}
+
+.rope{
+    width:100%;
+    background-color: white;
+}
+
+.goat{
+    width:100%;
+    background-color: white;
+}
+
+.kalki{
+    width:100%;
+    background-color: white;
+}
+
+
+.container{
+    width:70%;
+    background-color: beige;
+    padding: 10px;
+    gap:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.dog,.drone,.sushi,.bridge,.chef,.mansion,.business,.facebook{
+   background-color: white;
+}
+
+.dog>img{
+    width:97%;
+    padding-top: 5px;
+}
+div.dog{
+    grid-column: span 3;
+}
+
+.drone>img{
+    width:97%;
+    padding-top: 5px;
+}
+div.drone{
+    grid-column: span 2;
+}
+
+
+
+.sushi>img{
+    width:97%;
+    padding-top: 5px;
+}
+
+.bridge>img{
+    width:97%;
+    padding-top: 5px;
+}
+div.bridge{
+    grid-column: span 3;
+}
+
+.chef>img{
+    width:97%;
+    padding-top: 5px;
+}
+
+.mansion>img{
+    width:97%;
+    padding-top: 5px;
+}
+
+.business>img{
+    width:97%;
+    padding-top: 5px;
+}
+
+.facebook>img{
+    width:97%;
+    padding-top: 5px;
+}
+div.facebook{
+    grid-column: span 3;
+}
+
+
+
+
+main{
+    display:flex;
+    flex-direction: row;
+}
